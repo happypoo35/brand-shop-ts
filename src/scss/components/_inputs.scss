@@ -2,7 +2,10 @@ input {
   border: none;
   outline: none;
   font-family: inherit;
-  font-size: 0.875rem;
+  // font-size: 0.875rem;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .input-subscribe {

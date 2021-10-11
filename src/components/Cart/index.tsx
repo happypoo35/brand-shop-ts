@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Checkout from "./Checkout";
 import Form from "./Form";
-import ProductCard from "./CartItem";
+import CartItem from "./CartItem";
 import { PageHeader } from "../";
 import { ReactComponent as IconCart } from "../../images/icon-cart.svg";
 
@@ -41,7 +41,7 @@ const Cart = () => {
         <div className="container">
           <div className="cart-items">
             {cart.map((el) => {
-              return <ProductCard key={el.id} item={el} />;
+              return <CartItem key={el.id} item={el} />;
             })}
             <div className="cart-buttons">
               <button className="btn gray" onClick={handleClick}>
