@@ -11,7 +11,7 @@
     animation: 0.5s remove forwards;
 
     @keyframes remove {
-      50% {
+      70% {
         transform: translateX(-100%);
         margin-bottom: 0;
         opacity: 0;
