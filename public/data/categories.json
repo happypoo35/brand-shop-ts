@@ -1,0 +1,36 @@
+[
+  {
+    "gender": "men",
+    "categories": [
+      "accessories",
+      "bags",
+      "denim",
+      "t-shirts",
+      "tanks",
+      "hoodies & sweatshots",
+      "shoes"
+    ]
+  },
+  {
+    "gender": "women",
+    "categories": [
+      "accessories",
+      "jackets & coats",
+      "polos",
+      "t-shirts",
+      "shirts",
+      "sweaters & knits"
+    ]
+  },
+  {
+    "gender": "kids",
+    "categories": [
+      "accessories",
+      "jackets & coats",
+      "polos",
+      "t-shirts",
+      "shirts",
+      "bags"
+    ]
+  }
+]

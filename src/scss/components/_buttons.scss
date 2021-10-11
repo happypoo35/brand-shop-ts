@@ -1,0 +1,146 @@
+button {
+  cursor: pointer;
+  display: block;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.btn {
+  padding: 0.875rem 2.375rem;
+  border: 1px solid $Accent;
+  color: $Accent;
+
+  &-pink {
+    &:hover {
+      background: $Accent;
+      color: white;
+    }
+  }
+
+  &-cart {
+    display: flex;
+    align-items: center;
+    border-color: white;
+    font-size: 0.875rem;
+    color: white;
+    padding: 0.625rem 0.875rem;
+
+    &:hover {
+      border: 2px solid white;
+    }
+
+    svg {
+      margin-right: 0.75rem;
+      font-size: 2rem;
+    }
+
+    &-added {
+      border-width: 2px;
+    }
+  }
+
+  &-cart-product {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding: 0.5rem 2rem 0.5rem 1.5rem;
+
+    &:hover {
+      background: $Accent;
+      color: white;
+    }
+
+    svg {
+      margin-right: 1.375rem;
+      font-size: 1.625rem;
+    }
+
+    &-added {
+      background: $Accent;
+      color: white;
+    }
+
+    .icon-added {
+      width: unset;
+      font-size: 1.75rem;
+    }
+  }
+
+  &.gray {
+    border-color: $Light-gray-text;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: $Gray-text;
+
+    @include mobile {
+      font-size: 0.75rem;
+      text-transform: capitalize;
+      padding: 0.625rem 1rem;
+      width: 100%;
+    }
+
+    &:hover {
+      background: $Accent;
+      border-color: transparent;
+      color: white;
+    }
+
+    &.small {
+      font-size: 0.75rem;
+      padding: 0.625rem 0.875rem;
+      max-width: fit-content;
+    }
+  }
+
+  &-solid-pink {
+    border: none;
+    background: $Accent;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+
+    &:hover {
+      font-weight: 400;
+      background: transparent;
+      color: $Accent;
+      box-shadow: 0 0 0 1px $Accent;
+    }
+  }
+}
+
+.quantity-btn {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: $Very-light-gray;
+
+  &:hover {
+    background: mix(black, $Very-light-gray, 5%);
+  }
+}
+
+.btn-submit {
+  background: $Accent;
+  padding: 0 1.5rem 0 1.25rem;
+  border-radius: 0 2rem 2rem 0;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.btn-join {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: white;
+  text-transform: uppercase;
+  border: unset;
+  background: $Accent;
+  padding: 1rem 1.5rem;
+
+  svg {
+    margin-left: 1.25rem;
+    font-size: 1.125rem;
+  }
+}

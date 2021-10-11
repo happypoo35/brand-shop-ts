@@ -1,0 +1,51 @@
+.product-card {
+  width: min(22.5rem, 100%);
+  background: $Very-light-gray;
+
+  &-img {
+    position: relative;
+
+    &:hover {
+      .card-hover {
+        opacity: 1;
+        pointer-events: unset;
+      }
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .card-hover {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba($Dark-gray, 0.8);
+    opacity: 0;
+    pointer-events: none;
+    @extend %tr;
+  }
+
+  &-info {
+    padding: 1.5rem 1.125rem 1.25rem;
+
+    &:hover {
+      h4 {
+        color: $Accent;
+      }
+    }
+  }
+
+  h4 {
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    margin-bottom: 1.125rem;
+  }
+}

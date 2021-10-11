@@ -1,0 +1,65 @@
+input {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.875rem;
+}
+
+.input-subscribe {
+  padding: 1rem 1.375rem;
+  background: $Light-gray;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.input {
+  border: 1px solid $Light-gray-text;
+  padding: 0.875rem 1rem;
+  width: 100%;
+
+  &::placeholder {
+    color: $Light-gray-text;
+  }
+}
+
+.radio-btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 300;
+
+  .custom-radio {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid $Light-gray-text;
+    margin-right: 0.625rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: $Accent;
+      opacity: 0;
+    }
+  }
+
+  input {
+    display: none;
+
+    &:checked ~ .custom-radio {
+      border-color: $Accent;
+
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+}

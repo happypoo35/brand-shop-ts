@@ -1,0 +1,50 @@
+.product-header {
+  background: $Very-light-gray;
+  border-bottom: 1px solid $Light-gray;
+
+  @include mobile {
+    padding: unset;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+
+    @include mobile {
+      height: fit-content;
+    }
+  }
+
+  img {
+    height: 100%;
+
+    @include mobile {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.product-page {
+  &-info {
+    transform: translateY(-4rem);
+    margin-bottom: 4rem;
+
+    @include mobile {
+      transform: translateY(-2rem);
+    }
+  }
+
+  .products {
+    margin-bottom: 8rem;
+
+    @include laptop {
+      .product-card:last-child {
+        display: none;
+      }
+    }
+  }
+}

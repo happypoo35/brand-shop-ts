@@ -1,0 +1,21 @@
+.catalog {
+  margin-bottom: 5rem;
+
+  &-empty {
+    .container {
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .btn.gray {
+    margin: 3rem auto 0;
+  }
+}

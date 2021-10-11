@@ -1,0 +1,91 @@
+.filter {
+  position: relative;
+
+  &.active {
+    .filter-btn {
+      color: $Accent;
+
+      svg {
+        path {
+          fill: $Accent;
+        }
+      }
+    }
+
+    .filter-drop {
+      transform: scale(1);
+      opacity: 1;
+      pointer-events: unset;
+    }
+  }
+
+  &-btn {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.75rem 0 0 1rem;
+
+    &-label {
+      @include mobile {
+        display: none;
+      }
+    }
+
+    svg {
+      margin-left: 0.625rem;
+
+      @include mobile {
+        height: 1rem;
+        width: 1.5rem;
+        margin-left: unset;
+      }
+
+      path {
+        fill: $Dark-gray;
+      }
+    }
+  }
+
+  &-drop {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: white;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    padding: 2.875rem 1rem 1rem;
+    transform-origin: top left;
+    transform: scale(0.5);
+    opacity: 0;
+    pointer-events: none;
+    @extend %tr;
+
+    @include mobile {
+      width: 80vw;
+    }
+  }
+
+  &-section {
+    padding: 0.75rem;
+    border-bottom: 1px solid $Light-gray;
+    border-left: 5px solid $Accent;
+
+    &:not(:last-child) {
+      margin-bottom: 1.125rem;
+    }
+  }
+
+  .cat-list {
+    margin-left: 1rem;
+    margin-bottom: 1.125rem;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 0.625rem;
+  }
+}

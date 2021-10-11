@@ -1,0 +1,65 @@
+.header {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: $Dark-gray;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-right,
+  &-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+
+    svg {
+      pointer-events: none;
+    }
+  }
+
+  .cart-icon {
+    position: relative;
+
+    svg {
+      font-size: 2rem;
+      color: hsl(0, 0%, 91%);
+    }
+  }
+
+  .cart-number {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: $Accent;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    color: white;
+    animation: 0.15s popIn;
+
+    @keyframes popIn {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  }
+}

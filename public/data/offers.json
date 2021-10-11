@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "subtitle": "30% off",
+    "title": "for women",
+    "img": "./data/images/img-grid-1.jpg",
+    "route": "/catalog/women"
+  },
+  {
+    "id": 2,
+    "subtitle": "hot deal",
+    "title": "for men",
+    "img": "./data/images/img-grid-2.jpg",
+    "route": "/catalog/men"
+  },
+  {
+    "id": 3,
+    "subtitle": "new arrivals",
+    "title": "for kids",
+    "img": "./data/images/img-grid-3.jpg",
+    "route": "/catalog/kids"
+  },
+  {
+    "id": 4,
+    "subtitle": "luxirous & trendy",
+    "title": "accessories",
+    "img": "./data/images/img-grid-4.jpg",
+    "route": "/catalog/men/accessories"
+  }
+]

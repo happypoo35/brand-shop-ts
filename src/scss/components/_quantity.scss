@@ -1,0 +1,15 @@
+.quantity {
+  display: flex;
+  align-items: center;
+
+  &-label {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    margin-right: 0.75rem;
+  }
+
+  &-num {
+    margin: 0 0.5rem;
+    font-size: 0.875rem;
+  }
+}

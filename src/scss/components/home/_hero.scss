@@ -1,0 +1,59 @@
+.hero {
+  background: $Light-pink;
+  min-height: 368px;
+  margin-bottom: 4rem;
+
+  @include tablet {
+    height: 368px;
+  }
+
+  .container {
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @include tablet {
+      grid-template-columns: 1fr;
+      place-items: center;
+      height: 100%;
+    }
+  }
+
+  &-img {
+    min-height: 368px;
+
+    @include tablet {
+      display: none;
+    }
+
+    img {
+      max-width: 100%;
+      min-width: 386px;
+    }
+  }
+
+  &-text {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    padding-left: clamp(0rem, -9.5rem + 19vw, 4rem);
+    padding-right: 2rem;
+
+    @include tablet {
+      padding-right: unset;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      width: 0.75rem;
+      height: 5.75rem;
+      background: $Accent;
+      margin-right: 1rem;
+
+      @include mobile {
+        height: 5rem;
+      }
+    }
+  }
+}

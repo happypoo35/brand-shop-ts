@@ -1,0 +1,44 @@
+.footer {
+  background: $Dark-gray;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  @include mobile {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mobile {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .social {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.5rem;
+
+    @include mobile {
+      margin-bottom: 2rem;
+    }
+
+    &-link {
+      display: grid;
+      place-items: center;
+      width: 2rem;
+      height: 2rem;
+      background: white;
+      color: black;
+
+      &:hover {
+        background: $Accent;
+        color: white;
+      }
+    }
+  }
+}

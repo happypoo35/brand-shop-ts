@@ -1,0 +1,40 @@
+@import "global/vars";
+@import "global/placeholders";
+@import "global/mixins";
+@import "global/global";
+@import "global/typography";
+
+@import "components/buttons";
+@import "components/inputs";
+@import "components/products-list";
+@import "components/product-card";
+@import "components/filter";
+@import "components/select";
+@import "components/quantity";
+@import "components/spinner";
+@import "components/header";
+@import "components/page-header";
+@import "components/menu";
+@import "components/cta";
+@import "components/footer";
+@import "components/error";
+
+@import "components/home/home";
+@import "components/home/hero";
+@import "components/home/offers";
+@import "components/home/featured-products";
+@import "components/home/features";
+
+@import "components/registration/registration";
+@import "components/registration/form";
+
+@import "components/catalog/catalog";
+@import "components/catalog/filters";
+
+@import "components/product/product-page";
+@import "components/product/product-info";
+
+@import "components/cart/cart";
+@import "components/cart/form";
+@import "components/cart/checkout";
+@import "components/cart/cart-item";

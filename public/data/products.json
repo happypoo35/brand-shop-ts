@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1,
+    "img": "./data/images/img-catalog-1.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "denim",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": true,
+    "amount": 1
+  },
+  {
+    "id": 2,
+    "img": "./data/images/img-catalog-10.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "accessories",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": true,
+    "amount": 1
+  },
+  {
+    "id": 3,
+    "img": "./data/images/img-catalog-3.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "denim",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": true,
+    "amount": 1
+  },
+  {
+    "id": 4,
+    "img": "./data/images/img-catalog-4.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "denim",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": true,
+    "amount": 1
+  },
+  {
+    "id": 5,
+    "img": "./data/images/img-catalog-11.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": true,
+    "amount": 1
+  },
+  {
+    "id": 6,
+    "img": "./data/images/img-catalog-12.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "polos",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": true,
+    "amount": 1
+  },
+  {
+    "id": 7,
+    "img": "./data/images/img-catalog-2.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "accessories",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 8,
+    "img": "./data/images/img-catalog-5.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "accessories",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 9,
+    "img": "./data/images/img-catalog-6.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "accessories",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 10,
+    "img": "./data/images/img-catalog-7.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "t-shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 11,
+    "img": "./data/images/img-catalog-8.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "accessories",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 12,
+    "img": "./data/images/img-catalog-9.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "men",
+    "category": "accessories",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 13,
+    "img": "./data/images/img-catalog-13.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "t-shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 14,
+    "img": "./data/images/img-catalog-14.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "kids",
+    "category": "t-shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 15,
+    "img": "./data/images/img-catalog-15.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "kids",
+    "category": "t-shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 16,
+    "img": "./data/images/img-catalog-16.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "jackets & coats",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 17,
+    "img": "./data/images/img-catalog-17.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "jackets & coats",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 18,
+    "img": "./data/images/img-catalog-18.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "jackets & coats",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 19,
+    "img": "./data/images/img-catalog-19.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "jackets & coats",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 20,
+    "img": "./data/images/img-catalog-20.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "women",
+    "category": "jackets & coats",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 21,
+    "img": "./data/images/img-catalog-21.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "kids",
+    "category": "shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 22,
+    "img": "./data/images/img-catalog-22.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "kids",
+    "category": "shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 23,
+    "img": "./data/images/img-catalog-23.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "kids",
+    "category": "shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  },
+  {
+    "id": 24,
+    "img": "./data/images/img-catalog-24.jpg",
+    "title": "ELLERY X M'O CAPSULE",
+    "text": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "desc": "Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.",
+    "price": 52,
+    "gender": "kids",
+    "category": "shirts",
+    "settings": [
+      {
+        "title": "color",
+        "options": ["white", "gray", "black", "red"]
+      },
+      {
+        "title": "size",
+        "options": ["xs", "s", "m", "l", "xl"]
+      }
+    ],
+    "isFeatured": false,
+    "amount": 1
+  }
+]

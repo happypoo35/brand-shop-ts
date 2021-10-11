@@ -1,0 +1,86 @@
+.cart {
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+  height: 100%;
+
+  @include laptop {
+    margin-top: 4rem;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @include laptop {
+      grid-template-columns: 100%;
+    }
+  }
+
+  // &-items {
+  //   display: grid;
+  //   gap: 2.5rem;
+  //   align-items: flex-start;
+  // }
+
+  &-buttons {
+    // margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include laptop {
+      // margin-top: 1.5rem;
+      justify-content: space-evenly;
+    }
+
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  }
+
+  &-controls {
+    position: sticky;
+    top: 7rem;
+    max-width: 22.5rem;
+
+    @include laptop {
+      position: unset;
+      max-width: unset;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    @include tablet {
+      grid-template-columns: unset;
+    }
+  }
+}
+
+.cart-empty {
+  height: 50vh;
+
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  svg {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: $Light-gray;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+}

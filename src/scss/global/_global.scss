@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding-top: 4.625rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // overflow-x: hidden;
+
+  @include tablet {
+    overflow-x: hidden;
+  }
+}
+
+main {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: 0.3s slideIn;
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-0.5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.pad {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @include mobile {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+img {
+  display: block;
+}

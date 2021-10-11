@@ -1,0 +1,35 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  min-height: 9.25rem;
+  background: $Very-light-pink;
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+
+  h1 {
+    @include mobile {
+      margin-bottom: 0.75rem;
+    }
+  }
+
+  .bc-link {
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+
+      &::after {
+        content: "/";
+        display: inline;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

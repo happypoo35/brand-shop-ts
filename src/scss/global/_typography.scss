@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: $Gray-text;
+}
+
+.pink {
+  color: $Accent !important;
+}
+
+.light-gray {
+  color: $Very-light-gray;
+}
+
+h2,
+h4,
+h5,
+p.subtitle,
+.testimonial-text {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+.testimonial-text,
+input,
+.form-label {
+  color: $Dark-gray;
+}
+
+h1,
+h3,
+h4,
+h6,
+.offer-title,
+.bc-link,
+.shipping-title {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(2.75rem, 5vw, 3rem);
+  font-weight: 900;
+  line-height: clamp(2rem, 4vw, 2.75rem);
+  white-space: nowrap;
+
+  @include mobile {
+    font-size: 2.375rem;
+  }
+
+  &.page-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: unset;
+  }
+
+  span {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+
+    @include mobile {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+h2 {
+  font-size: 1.875rem;
+
+  &.empty-title {
+    font-size: 1.5rem;
+    color: $Light-gray-text;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+
+  span {
+    font-size: 1.125rem;
+    font-weight: 400;
+
+    @include mobile {
+      font-size: 0.875rem;
+    }
+  }
+
+  &.info-title {
+    font-weight: 300;
+    text-align: unset;
+
+    @include laptop {
+      font-size: 1rem;
+    }
+  }
+
+  &.cart-item-title {
+    font-weight: 400;
+    text-align: unset;
+
+    @include mobile {
+      font-size: 1rem;
+    }
+  }
+}
+
+h4 {
+  font-size: 0.8125rem;
+  color: black;
+}
+
+h5 {
+  font-size: 1.25rem;
+
+  &.shipping-title {
+    font-size: 1rem;
+  }
+}
+
+h6 {
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  &.pink {
+    font-weight: 400;
+  }
+
+  &.filter-title {
+    font-weight: 400;
+  }
+}
+
+.offer-title {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+
+  span {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 300;
+
+  &.subtitle {
+    color: $Light-gray-text;
+  }
+
+  &.testimonial-text {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  &.info-text {
+    font-size: 1.5rem;
+
+    @include laptop {
+      font-size: 1rem;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-link,
+.cat-link {
+  font-size: 0.875rem;
+  color: $Gray-text;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.form-label {
+  font-weight: 300;
+}
+
+.password-label {
+  font-size: 0.875rem;
+  color: $Light-gray-text;
+}
+
+.benefit {
+  font-size: 1.5rem;
+  font-weight: 300;
+
+  @include laptop {
+    font-size: 1rem;
+  }
+}
+
+.bc-link {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: $Light-gray-text;
+
+  &.pink {
+    font-weight: 700;
+  }
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.error-code {
+  font-size: 8rem;
+  font-weight: 900;
+  color: $Accent;
+}

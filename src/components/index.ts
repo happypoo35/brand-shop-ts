@@ -1,0 +1,15 @@
+export { default as Home } from "./Home";
+export { default as Catalog } from "./Catalog";
+export { default as Registration } from "./Registration";
+export { default as Cart } from "./Cart";
+export { default as Header } from "./Header";
+export { default as Footer } from "./Footer";
+export { default as Error } from "./Error";
+export { default as Features } from "./Features";
+export { default as Cta } from "./Cta";
+export { default as Menu } from "./Menu";
+export { default as PageHeader } from "./PageHeader";
+export { default as ProductCard } from "./ProductCard";
+export { default as ProductsList } from "./ProductsList";
+export { default as Select } from "./Select";
+export { default as Product } from "./Product";
