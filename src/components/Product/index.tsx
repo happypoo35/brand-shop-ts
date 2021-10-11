@@ -63,7 +63,12 @@ const Product = () => {
   return (
     <>
       <PageHeader />
-      <header className="product-header pad">
+      <header
+        className="product-header pad"
+        style={{
+          background: `no-repeat url(${product?.img}) top 0 left 0/1000%`,
+        }}
+      >
         <div className="container">
           <img src={product?.img} alt={product?.title} />
         </div>
