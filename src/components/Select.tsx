@@ -3,11 +3,6 @@ import { FaChevronDown } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
 import { IParams, ISetting } from "../types";
 
-// interface props {
-//   title: string;
-//   options: string[];
-// }
-
 const Select = ({ title, options }: ISetting) => {
   const selectRef = useRef<HTMLDivElement>(null);
   const [showSelect, setShowSelect] = useState(false);

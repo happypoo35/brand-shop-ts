@@ -1,17 +1,15 @@
 import { Link } from "react-router-dom";
 import { useProductsQuery } from "../../app/api";
 import { ProductsList } from "../";
-import Spinner from "../../helpers/Spinner";
+// import Spinner from "../../helpers/Spinner";
 
 const Featured = () => {
-  const { isLoading } = useProductsQuery();
+  // const { isLoading } = useProductsQuery();
   const { featured } = useProductsQuery(undefined, {
     selectFromResult: ({ data }) => ({
       featured: data?.filter((el) => el.isFeatured),
     }),
   });
-
-  if (isLoading) return <Spinner />;
 
   return (
     <section className="featured-products pad" aria-label="featured products">

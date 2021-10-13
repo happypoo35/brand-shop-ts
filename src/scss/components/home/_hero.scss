@@ -21,6 +21,7 @@
 
   &-img {
     min-height: 368px;
+    aspect-ratio: 801/764;
 
     @include tablet {
       display: none;
@@ -28,7 +29,6 @@
 
     img {
       max-width: 100%;
-      min-width: 386px;
     }
   }
 

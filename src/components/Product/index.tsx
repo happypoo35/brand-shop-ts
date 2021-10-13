@@ -5,16 +5,16 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 import { PageHeader, Select, ProductsList } from "..";
 import { useProductsQuery } from "../../app/api";
 import Quantity from "./Quantity";
-import Spinner from "../../helpers/Spinner";
 
 import { useAppDispatch } from "../../app/hooks";
 import { add } from "../../features/cartSlice";
+import Spinner from "../../helpers/Spinner";
 
 const Product = () => {
+  const [isImgLoaded, setIsImgLoaded] = useState(false);
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
   const { id }: { id: string } = useParams();
-  const { isLoading } = useProductsQuery();
 
   const dispatch = useAppDispatch();
 
@@ -45,32 +45,25 @@ const Product = () => {
     return () => clearTimeout(timer);
   }, [added]);
 
-  if (isLoading)
-    return (
-      <>
-        <PageHeader />
-        <header className="product-header pad">
-          <Spinner />
-        </header>
-        <section className="product-page pad">
-          <div className="container">
-            <Spinner />
-          </div>
-        </section>
-      </>
-    );
-
   return (
     <>
       <PageHeader />
       <header
         className="product-header pad"
         style={{
-          background: `no-repeat url(${product?.img}) top 0 left 0/1000%`,
+          background: isImgLoaded
+            ? `no-repeat url(${product?.img}) top 0 left 0/1000%`
+            : "$Very-light-gray",
         }}
       >
         <div className="container">
-          <img src={product?.img} alt={product?.title} />
+          {!isImgLoaded && <Spinner />}
+          <img
+            src={product?.img}
+            alt={product?.title}
+            style={{ opacity: isImgLoaded ? "1" : "0" }}
+            onLoad={() => setIsImgLoaded(true)}
+          />
         </div>
       </header>
       <section className="product-page pad">

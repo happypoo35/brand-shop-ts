@@ -19,6 +19,7 @@
 
   img {
     height: 100%;
+    @extend %tr;
 
     @include mobile {
       object-fit: cover;

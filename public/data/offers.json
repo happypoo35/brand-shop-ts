@@ -4,6 +4,8 @@
     "subtitle": "30% off",
     "title": "for women",
     "img": "./data/images/img-grid-1.jpg",
+    "width": "360",
+    "height": "260",
     "route": "/catalog/women"
   },
   {
@@ -11,6 +13,8 @@
     "subtitle": "hot deal",
     "title": "for men",
     "img": "./data/images/img-grid-2.jpg",
+    "width": "360",
+    "height": "260",
     "route": "/catalog/men"
   },
   {
@@ -18,6 +22,8 @@
     "subtitle": "new arrivals",
     "title": "for kids",
     "img": "./data/images/img-grid-3.jpg",
+    "width": "360",
+    "height": "260",
     "route": "/catalog/kids"
   },
   {
@@ -25,6 +31,8 @@
     "subtitle": "luxirous & trendy",
     "title": "accessories",
     "img": "./data/images/img-grid-4.jpg",
+    "width": "1139",
+    "height": "180",
     "route": "/catalog/men/accessories"
   }
 ]

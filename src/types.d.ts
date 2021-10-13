@@ -22,6 +22,8 @@ export interface IOffer {
   subtitle: string;
   title: string;
   img: string;
+  height: number;
+  width: number;
   route: string;
 }
 
