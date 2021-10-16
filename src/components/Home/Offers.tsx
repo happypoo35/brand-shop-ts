@@ -16,15 +16,16 @@ const Offers = () => {
   };
 
   return (
-    <section className="offers pad" aria-label="offers">
-      <div className="container">
+    <section className="mb-24 pad" aria-label="offers">
+      <div className="container grid grid-cols-3 gap-7">
         {data?.map((el) => {
           const { id, subtitle, title, img, route } = el;
           return (
             <article
               key={id}
               aria-label="offer"
-              className={!isLoaded ? "offer loading" : "offer"}
+              // className={!isLoaded ? "offer loading" : "offer"}
+              className="relative cursor-pointer bg-offerBg last:bg-red"
               onClick={() => history.push(route)}
             >
               <img

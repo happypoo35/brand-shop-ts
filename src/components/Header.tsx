@@ -14,24 +14,27 @@ const Header = () => {
 
   return (
     <>
-      <header className="header pad">
-        <div className="container">
-          <div className="header-left">
+      <header className="sticky top-0 w-full bg-darkGray py-5 z-10 pad">
+        <div className="container flex justify-between items-center">
+          <div className="flex items-center gap-8">
             <Link to="/" aria-label="home page">
               <Logo />
             </Link>
-            <IconSearch className="search" />
+            <IconSearch />
           </div>
-          <div className="header-right">
-            <div className="hamburger" onClick={() => setShowMenu(!showMenu)}>
-              <IconHamburger />
+          <div className="flex items-center gap-8">
+            <div
+              className="hamburger"
+              onClick={() => setShowMenu(!showMenu)}
+            >
+              <IconHamburger className="pointer-events-none" />
             </div>
             <Link to="/registration" aria-label="user">
               <IconUser className="profile" />
             </Link>
             <Link to="/cart" aria-label="cart">
               <div className="cart-icon">
-                <IconCart />
+                <IconCart className="text-3xl text-lightGray" />
                 {cart.length > 0 && (
                   <span className="cart-number">{cart.length}</span>
                 )}

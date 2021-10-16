@@ -16,9 +16,9 @@ const App = () => {
   return (
     <Router>
       <ScrollToTop />
-      <div className="wrapper">
+      <div className="flex flex-col min-h-screen">
         <Header />
-        <main>
+        <main className="flex-1">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/catalog" component={Catalog} />
